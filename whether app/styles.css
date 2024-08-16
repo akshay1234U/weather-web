@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url(weather-bg.webp);
+    background-size: cover;
+}
+
+.weather-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: orangered;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.weather-details {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.weather-details div {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
